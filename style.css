@@ -8,7 +8,8 @@ body{
     align-items:center;
     justify-content:space-around;
     flex-direction:column;
-        padding:8px;
+    padding:8px;
+    padding-top: 0px;
 }
 
 h1{
@@ -18,6 +19,29 @@ h1{
     font-size:50px;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
+    margin-top:0px;
+}
+
+.inputText{
+    font-size: 20px;
+}
+
+#size{
+    margin: 8px;
+    width:50px
+}
+
+#createBtn{
+    margin: 8px;
+}
+
+button{
+    padding: 4px 6px; 
+    font-weight:bold;
+    border-radius: 8px;
+}
+input{
+    border-radius: 4px;
 }
 
 #grid{
